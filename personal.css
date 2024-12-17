@@ -1,0 +1,63 @@
+.resume.html{
+    /* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #002654; /* BYU Blue */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FFD700; /* Gold */
+}
+
+p {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation styling */
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#navigation li {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Content block styling */
+.content-block {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #003087; /* Darker BYU Blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+}
